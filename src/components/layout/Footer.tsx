@@ -39,7 +39,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="block mb-6">
               <img
-                src="/images/umarcode-logo.png"
+                src="https://umeed-e-nau.com/thfdemo/umarcode-logo.png"
                 alt="UmarCode Logo"
                 className="w-[200px] h-[200px]"
               />

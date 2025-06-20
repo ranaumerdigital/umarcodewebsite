@@ -43,7 +43,7 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="block">
           <img
-            src="/images/umarcode-logo.png"
+            src="https://umeed-e-nau.com/thfdemo/umarcode-logo.png"
             alt="UmarCode Logo"
             className="w-[180px] h-[180px]"
           />
