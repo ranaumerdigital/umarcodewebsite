@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const footerLinks = {
@@ -37,16 +37,18 @@ export function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="bg-primary-600 p-2 rounded-lg">
-                <Code2 className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">UmarCode</span>
+            <Link to="/" className="block mb-6">
+              <img
+                src="/images/umarcode-logo.png"
+                alt="UmarCode Logo"
+                className="w-[200px] h-[200px]"
+              />
             </Link>
+
             <p className="text-gray-400 mb-6 max-w-md">
               Engineering Future Technologies. We deliver cutting-edge software solutions through individual resources, team outsourcing, and complete project handovers.
             </p>
-            
+
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
